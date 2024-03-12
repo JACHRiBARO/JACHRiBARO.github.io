@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+    <title>My TEST webpage</title>
+    <head>
+<body>
+<p>Janiel Christian</p>
+<h3>ROLDAN</h3>  
+<ul>
+    <li>Sta Lucia High school</li>
+    <li>STI ORCA</li>
+</ul>
+<a href="https://www.facebook.com/FeiStayNight">Facebook Profile</a>
+<img src="https://www.cnet.com/a/img/resize/61c44c6765cb6b8529df884935ad7aefc622aeec/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=675&width=1200" alt="">
+<table>
+<tr>
+    <td>Son</td>
+</tr>
+<tr>
+    <td>Brother</td>
+</tr>
+<tr>
+    <td>Father</td>
+</tr>
+</table>
+<div>TEST</div>
+<form action="index.html" method="get">
+    <input type="text" name="name"placeholder="name">
+    <button type="submit">submit</button>
+</body>
+    </head>

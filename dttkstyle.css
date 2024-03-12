@@ -1,0 +1,112 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: gray;
+  color: white;
+  font-style: unset;
+  padding: 20px 0;
+  border: 5px solid black;
+}
+
+.btn1 {
+  display: inline-block;
+  background-color: burlywood;
+  color: white;
+  padding: 7px 11px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-style: verdana;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(detatak.jpg);
+  background-size: cover;
+  color: GRE;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 21px;
+  font-style: italic;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  position: relative;
+  top: 0px;
+  left: 320px;
+  width: max-content;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.products {
+  background-color: gray;
+  padding: 50px 0;
+  border: 5px solid black;
+  
+}
+
+.products h2 {
+  text-align: center;
+}
+
+.about {
+  padding: 50px 0;
+}
+
+.contact {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
