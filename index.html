@@ -651,5 +651,15 @@ $data_stmt = $conn->query("SELECT * FROM users");
 $users = $data_stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
+<form method="POST" actions="">
+<label for="name">Enter your name:</label>
+<input type="text" id="name" name="name" value="<?php echospecialchars($default_name); ?>" required>
+<button type="submit" name="submit">Submit</button>
+</form>
+
+<?php if ($default_name): ?>
+<p>Last submitted name: <?php echospecialchars($default_name); ?></p>
+<?php ens if; ?>
+
     </body>
 </html>
